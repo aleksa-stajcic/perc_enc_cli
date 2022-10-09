@@ -12,7 +12,6 @@ struct Args {
 }
 
 fn main() {
-    // &todo: make this good
     let map = HashMap::<char, String>::from(
         [
             (' ', String::from("%20")),
